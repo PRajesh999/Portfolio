@@ -259,7 +259,7 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Certifications
+                                        Certs
                                     </span>
                                 </div>
                             </NavLink>
