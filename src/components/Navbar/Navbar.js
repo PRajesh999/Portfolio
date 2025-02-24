@@ -249,7 +249,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#certifications'
+                                to='/#aachievements'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
