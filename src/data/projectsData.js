@@ -6,7 +6,6 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-import five from '../assets/svg/projects/five.svg'
 
 export const projectsData = [
     {
