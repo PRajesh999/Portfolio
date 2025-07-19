@@ -6,7 +6,7 @@ import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
-
+import five from '../assets/svg/projects/five.svg'
 
 export const projectsData = [
     {
@@ -20,6 +20,15 @@ export const projectsData = [
     },
     {
         id: 2,
+        projectName: 'Food Donation Management',
+        projectDesc: 'Developed a full-stack web application for managing food donations, allowing users to add donation details, track available donations, and manage profiles, with features to filter donations by location, category, or donor status for efficient distribution',
+        tags: ['React Native [MERN]'],
+        code: 'https://github.com/PRajesh999/Food-Donation-Management',
+        demo: 'https://github.com/PRajesh999/Food-Donation-Management',
+        image: five
+    },
+    {
+        id: 3,
         projectName: 'Student Statistics',
         projectDesc: 'Developed a Java GUI application for managing student statistics, enabling users to add student details and view data in a tabular format with filtering options for specific colleges or combined statistics.',
         tags: ['Java GUI'],
@@ -27,15 +36,15 @@ export const projectsData = [
         demo: 'https://github.com/PRajesh999',
         image: seven
     },
-    {
-        id: 3,
-        projectName: 'Infrastructure Tracker',
-        projectDesc: ' Created a React.js app for tracking infrastructure data using MongoDB aggregations, enabling dynamic visualization of equipment counts by location and product.',
-        tags: ['React.js', 'MongoDB'],
-        code: 'https://github.com/PRajesh999',
-        demo: 'https://github.com/PRajesh999',
-        image: two
-    },
+    // {
+    //     id: 3,
+    //     projectName: 'Infrastructure Tracker',
+    //     projectDesc: ' Created a React.js app for tracking infrastructure data using MongoDB aggregations, enabling dynamic visualization of equipment counts by location and product.',
+    //     tags: ['React.js', 'MongoDB'],
+    //     code: 'https://github.com/PRajesh999',
+    //     demo: 'https://github.com/PRajesh999',
+    //     image: two
+    // },
     // {
     //     id: 4,
     //     projectName: 'Android Patient Tracker',
