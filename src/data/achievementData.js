@@ -3,6 +3,9 @@ import html from '../assets/svg/projects/html.png'
 import oracle from '../assets/svg/projects/oracle.png'
 import java from '../assets/svg/projects/java.png'
 import python from '../assets/svg/projects/python.png'
+import javascript from '../assets/svg/projects/javascript.png'
+import csa from '../assets/svg/projects/csa.png'
+import cad from '../assets/svg/projects/cad.png'
 
 export const achievementData = {
     //  bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
@@ -47,6 +50,30 @@ export const achievementData = {
             date: 'May 11, 2023',
             field: 'Database',
             image: python
+        },
+        {
+            id: 6,
+            title: 'Javascript',
+            details: 'Certifies knowledge in core JavaScript concepts, DOM manipulation, event handling, and basic web interactivity.',
+            date: 'June 29, 2025',
+            field: 'WebDevelopment',
+            image: javascript
+        },
+        {
+            id: 7,
+            title: 'ServiceNow CSA',
+            details: 'Validates skills in user management, workflow configuration, and platform maintenance on ServiceNow.',
+            date: 'May 21, 2025',
+            field: 'Administration',
+            image: csa
+        },
+        {
+            id: 8,
+            title: 'ServiceNow CAD',
+            details: 'Covers custom app development on ServiceNow, including scripting, UI configuration, and data modeling.',
+            date: 'May 26, 2025',
+            field: 'ApplicationDevelopment',
+            image: cad
         }
     ]
 };
